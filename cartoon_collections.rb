@@ -21,7 +21,5 @@ end
 
 def find_the_cheese(food)
   cheese = ["cheddar", "gouda", "camembert"]
-  food.any? {|item| item}
-end
-result.include?("cheese")
+  food.any? {|item| item.include?(cheese)}
 end
