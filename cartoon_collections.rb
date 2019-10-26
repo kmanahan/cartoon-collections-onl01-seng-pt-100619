@@ -24,3 +24,4 @@ def find_the_cheese(food)
   food.any? {|item| item.include?(cheese)}
 end
 cheese.include?(cheese)
+end
