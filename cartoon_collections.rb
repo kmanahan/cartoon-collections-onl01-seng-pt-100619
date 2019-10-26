@@ -20,8 +20,7 @@ end
 # puts result ? 'Pass' : 'Fail'
 
 def find_the_cheese(food)
-  #cheese = ["cheddar", "gouda", "camembert"]
-  food.each.include?("cheddar")
-  return food.include?("cheddar")
+  cheese = ["cheddar", "gouda", "camembert"]
+  result = food.each do |word| word.include?("cheese")
   # return string value of cheddar
 end
