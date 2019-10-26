@@ -12,16 +12,8 @@ end
 def long_planeteer_calls(calls_long)
   calls_long.any? {|word| word.length > 4}
 end
-# required = ["All times are valid", "Export complete"]
-# log = File.open('filename.log')
-# result = required.all? do |phrase|
-#     log.any? { |line| line.include?(phrase) }
-# end
-# puts result ? 'Pass' : 'Fail'
+
 
 def find_the_cheese(food)
   cheese = ["cheddar", "gouda", "camembert"]
-  food.any? {|item| item.include?(cheese)}
-end
-cheese.include?(cheese)
-end
+ food.include?
