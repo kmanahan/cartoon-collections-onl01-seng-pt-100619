@@ -24,3 +24,4 @@ def find_the_cheese(food)
   result = food.each do |word| word.include?("cheese")
   # return string value of cheddar
 end
+end
