@@ -19,5 +19,4 @@ def find_the_cheese(food)
   food.any?{|item| item}
   food.include?(cheese)
 end
-food
- end
+
