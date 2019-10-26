@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(food)
   cheese = ["cheddar", "gouda", "camembert"]
-  result = food.each do |word| word.include?("cheese")
+  result = food.each do |word| word.any?("cheese")
 end
 result 
 end
